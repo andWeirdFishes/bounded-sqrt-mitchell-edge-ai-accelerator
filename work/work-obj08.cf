@@ -1,0 +1,13 @@
+v 4
+file "/home/bojan/Desktop/sqrt/" "sim/tb_sqrt_gen.vhd" "e579cbab3bd98d26fe0a337acb56de11f6dc5da9" "20260628203151.218":
+  entity tb_sqrt_gen at 1( 0) + 0 on 17;
+  architecture sim of tb_sqrt_gen at 13( 198) + 0 on 18;
+file "/home/bojan/Desktop/sqrt/" "src/sqrt_lossy.vhd" "c3e9e1e8e02f297a14db5127562b523f919c394e" "20260628203151.190":
+  entity sqrt_lossy at 1( 0) + 0 on 13;
+  architecture rtl of sqrt_lossy at 26( 1045) + 0 on 14;
+file "/home/bojan/Desktop/sqrt/" "src/sqrt_standard.vhd" "13b111ed0ec030d2e9d215eee3e679cdfa9d675d" "20260628203151.177":
+  entity sqrt_standard at 1( 0) + 0 on 11;
+  architecture rtl of sqrt_standard at 14( 319) + 0 on 12;
+file "/home/bojan/Desktop/sqrt/" "src/sqrt_top.vhd" "011de4911a1d2867ef0adb3125548e3a192775ea" "20260628203151.203":
+  entity sqrt_top at 1( 0) + 0 on 15;
+  architecture rtl of sqrt_top at 14( 338) + 0 on 16;

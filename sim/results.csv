@@ -1,0 +1,3 @@
+model,mae_real,max_error_real,rel_mae_pct,max_rel_error_pct,mse_real,cycles,speed
+standard,0.00000000,0.00000000,0.000000,0.000000,0.0000e+00,25,0.040000
+lossy,3.40493028,7.99975586,1.960017,3.124998,1.6751e+01,2,0.500000
