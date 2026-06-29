@@ -23,7 +23,7 @@ TASK_LABELS = {
     "anomaly_detection":    "Anomaly Det.",
 }
 
-fig, axes = plt.subplots(1, 3, figsize=(16, 5))
+fig, axes = plt.subplots(3, 1, figsize=(8,16))
 fig.suptitle("Mitchell Approximation: Cosine Similarity Accuracy Across Tasks", fontsize=13, fontweight="bold")
 
 ax = axes[0]
@@ -124,7 +124,7 @@ plt.tight_layout()
 plt.savefig(SIM_DIR / "top1_preservation.png", dpi=150)
 print(f"Saved -> sim/top1_preservation.png")
 
-fig3, axes3 = plt.subplots(1, 3, figsize=(16, 5))
+fig3, axes3 = plt.subplots(3, 1, figsize=(8,16))
 fig3.suptitle("Recall@K Preservation: Mitchell Approx vs Exact", fontsize=13, fontweight="bold")
 
 TOPK = [1, 5, 10, 30]
